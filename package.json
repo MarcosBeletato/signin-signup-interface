@@ -1,0 +1,20 @@
+{
+  "name": "signin-signup-interface",
+  "version": "1.0.0",
+  "description": "Iniciando um projeto: API para Sign-in e Sign-up.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcosBeletato/signin-signup-interface.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarcosBeletato/signin-signup-interface/issues"
+  },
+  "homepage": "https://github.com/MarcosBeletato/signin-signup-interface#readme"
+}
