@@ -17,14 +17,17 @@ class UserController {
   static loginUser = (req, res) => {
     const {mail, password} = req.query;
 
-    users.find({'mail': mail, 'password': password}, {}, (err) => {
+    users.findOne({'mail': mail, 'password': password}, {}, (err, userRecord) => {
       if (err) {
         res.status(401).send(`${err.message} - failed to login.`);
-      } else {
+      } else if (userRecord) {
         res.status(200).send("You're logged in the page!");
+      } else {
+        res.status(200).send("Registration not found on the database.")
       }
     })
   }
+  
 }
 
 export default UserController;
