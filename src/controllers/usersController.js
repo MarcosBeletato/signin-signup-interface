@@ -15,7 +15,7 @@ class UserController {
   }
 
   static loginUser = (req, res) => {
-    const login = req.query;
+    const {email, password} = req.query;
 
     users.find({'email': email, 'password': password}, {}, (err) => {
       if (err) {
