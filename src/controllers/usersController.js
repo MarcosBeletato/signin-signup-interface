@@ -15,9 +15,9 @@ class UserController {
   }
 
   static loginUser = (req, res) => {
-    const {email, password} = req.query;
+    const {mail, password} = req.query;
 
-    users.find({'email': email, 'password': password}, {}, (err) => {
+    users.find({'mail': mail, 'password': password}, {}, (err) => {
       if (err) {
         res.status(401).send(`${err.message} - failed to login.`);
       } else {
