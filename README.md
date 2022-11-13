@@ -17,12 +17,12 @@ npm run dev
 
 You can use *Postman* to consume the API and the routes of the application are those:
 
-> To register a new user:
+> #### To register a new user:
 > - It's required to pass the mail and a password on the requisition's body.
 > ```
 > http://localhost:3000/users
 > ```
-> To validate the login:
+> #### To validate the login:
 > - It's necessary to pass the parameters.
 > ```
 > http://localhost:3000/login?mail=[mail]&password=[password]
