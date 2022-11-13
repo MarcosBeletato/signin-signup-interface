@@ -1,7 +1,4 @@
-# Sign-in/Sign-up
-
-
-# Interface
+# Sign-in/Sign-up Interface
 
 > #### This is an application developed with:
 > - *node.js*
@@ -22,4 +19,6 @@ The objective of this project was to create an Rest API enabled to do the work o
 
 > ###### Developed by:
 > Marcos Beletato
+>
+>
 > LinkedIn: *https://www.linkedin.com/in/marcosbeletato/*
